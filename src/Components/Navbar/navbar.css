@@ -1,0 +1,26 @@
+nav a.nav-link{
+    font-size: 1.5rem;
+    cursor: pointer;
+    letter-spacing: 0.04rem;
+    margin-left: 3rem;
+}
+nav ul li{
+    text-transform: uppercase;
+}
+.navbar-bar > li > a {
+    color: black !important;
+}
+.bg{
+    background: transparent !important;
+}
+
+@media screen and (max-width:992px){
+    .bg{
+        background: #212529 !important;
+    }
+    nav a.nav-link{
+        text-align: center;
+        margin: 30px;
+    }
+    
+}
