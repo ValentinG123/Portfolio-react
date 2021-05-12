@@ -3,11 +3,12 @@ import '../Card/card.css'
 
 
 
-function Card({title, imageSource}) {
+function Card({title, imageSource, Url}) {
     return (
             <div className="card-container">
                 <img src={imageSource} alt="" className='img'/>
-                <a href="#">{title}</a>
+                <a href={Url} target='_blank'>{title}
+                </a>
             </div>
 
     )

@@ -10,19 +10,21 @@ const Cards = () => {
         {
             id: 1,
             image: Github,
-            title: 'Github'
+            title: 'Github',
+            url: 'https://github.com/ValentinG123?tab=repositories'
             
         },
         {
             id: 2,
             image: Linkeid,
-            title: 'Linkeid'
+            title: 'Linkeid',
+            url: 'https://www.linkedin.com/in/valentin-graglia-a416aa20b/'
             
         },
         {
             id: 3,
             image: Modal,
-            title: 'Modal'
+            title: 'Contacto',
             
         }
     ]
@@ -31,7 +33,7 @@ const Cards = () => {
                     {
                         card.map(card=> (
                             <div key={card.id}>    
-                            <Card title={card.title} imageSource={card.image} />
+                            <Card title={card.title} imageSource={card.image} Url={card.url} />
                             </div>
                         ))
                     }         
