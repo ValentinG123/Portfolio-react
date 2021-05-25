@@ -1,0 +1,142 @@
+
+.mdal{
+    width: 230px;
+    height: 230px;
+    background: #FFE000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 50%;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    /* bottom: 25%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mdal .curriculum-btn{
+
+   text-decoration: none;
+   display: none;
+    color: black;
+    padding: 0;
+    margin-top: 1rem;
+    
+}
+.modal-dialog{
+    margin: 1.75rem auto !important;
+    width: 60% !important;
+}
+.mdal img{
+    width: 90px;
+    height: 90px;
+
+}
+.modal-content{
+    background: black !important;
+}
+.modal-body{
+    width: 100%;
+    height: 100%;
+    padding: 2px !important;
+  
+}
+.photo-1{
+    width: 100%;
+    height: 100%;
+}
+.modal-footer{
+    padding: 2px !important;
+    border: none !important;
+    border-top: solid 8px #FFE000 !important;
+}
+.modal-footer button{
+    font-size: 10px;
+    background: none;
+    border: none;
+}
+.mdal button{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    padding: 0;
+    margin-top: 1rem;
+    transition: none !important;
+
+}
+.mdal button:hover{
+    color: rgb(71, 69, 69);
+}
+
+.modal-body{
+    height: 100%;
+}
+.modal-body a{
+    display: none;
+}
+.modal-body a:hover{
+    color: rgb(71, 69, 69);
+}
+
+
+ @media screen and (max-width:768px) {
+    .modal-body{
+        height: 100%;
+    }
+
+    .modal-body a{
+        display: block;
+        color: wheat;
+        text-decoration: none;
+        font-size: 1rem;
+        display: flex;  
+        justify-content: center;
+        width: 100%;
+    }
+     .photo-1{
+         display: none;
+     }
+    .mdal{
+        width: 160px;
+        height: 160px;
+    }
+    .mdal img{
+        width: 70px;
+        height: 70px;
+        
+
+}
+.mdal button{
+    display: none;
+}
+.mdal .curriculum-btn{
+    display: block;
+    font-size: 1.5rem;
+
+
+}
+
+}
+
+@media screen and (max-width:480px) {
+    .modal-body a{
+        font-size: .8rem;
+    }
+    .mdal{
+        width: 100px;
+        height: 100px;
+    }
+    .mdal img{
+        width: 40px;
+        height: 40px;
+}
+.mdal .curriculum-btn{
+    font-size: 1rem;
+
+}
+
+
+}

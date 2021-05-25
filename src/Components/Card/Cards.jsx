@@ -1,9 +1,8 @@
 import React from 'react'
 import Github from '../IMG/Github.svg'
 import Linkeid from '../IMG/Linkeid.svg'
-import Modal from '../IMG/Modal.svg'
-
 import Card from './Card'
+import FullModal from '../Curriculum/FullModal'
 import './card.css'
 const Cards = () => {
     const card = [
@@ -21,22 +20,18 @@ const Cards = () => {
             url: 'https://www.linkedin.com/in/valentin-graglia-a416aa20b/'
             
         },
-        {
-            id: 3,
-            image: Modal,
-            title: 'Contacto',
-            
-        }
     ]
+    
     return (
         <div className='card-content'>
                     {
                         card.map(card=> (
                             <div key={card.id}>    
-                            <Card title={card.title} imageSource={card.image} Url={card.url} />
+                            <Card title={card.title} imageSource={card.image} Url={card.url}/>
                             </div>
                         ))
-                    }         
+                    }   
+                    <FullModal/>      
         </div>
     )
 }
