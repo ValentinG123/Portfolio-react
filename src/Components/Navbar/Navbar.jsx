@@ -16,10 +16,10 @@ function Navbar() {
               <a className="nav-link" href="#">Inicio<span className="sr-only"></span></a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Protecto</a>
+              <a className="nav-link" href="#proyect">Protecto</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Contacto</a>
+              <a className="nav-link" href="#footer">Contacto</a>
             </li> 
           </ul>
         </div>

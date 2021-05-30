@@ -1,0 +1,82 @@
+.proyect-img{
+    width: 230px;
+    height: 245px;
+}
+.proyect-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.proyect{
+    display: flex;
+    flex-direction: column;
+    /* position: absolute;
+    top: 150%; */
+    margin: 10vh 0px;
+    width: 100%;
+}
+.proyect h2{
+    align-self: center;
+    margin-bottom: 4rem;
+    font-size: 4rem;
+    background: #FFE000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    color: transparent;
+    /* font-family: 'Bebas Neue', cursive; */
+}
+.proyect-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0px 2px;
+}
+.proyect-container h4{
+    color: white;
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+.proyect-container a{
+    color: white;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border: 2px solid maroon;
+    padding: 5px 10px;
+    border-radius: .8rem;
+    transition: all ease-in-out .3s;
+}
+.proyect-container a:hover{
+    background: maroon;
+    color: white;
+}
+
+
+
+.proyect-container:hover{
+    transform: scale(1.1);
+    transition: all ease .5s;}
+    
+    @media screen and (max-width:768px) {
+
+        .proyect-img{
+            margin-top: 2rem;
+        }
+        .proyect-container{
+            margin: 0px 10px;
+
+        }
+        .proyect-container h4{
+            font-size: 1.3rem;
+        }
+
+      
+    }
+    
+    @media screen and (max-width:480px){
+
+    }

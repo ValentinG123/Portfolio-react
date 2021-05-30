@@ -1,0 +1,85 @@
+.card-container{
+    width: 230px;
+    height: 230px;
+    background: #FFE000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 50%;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    /* bottom: 25%; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+}
+button{
+    border: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+.card-content{
+    display: flex;
+    justify-content: space-evenly;
+    /* position: relative;
+    top: 80%; */
+}
+.card-container a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.card-container a:hover{
+    color: rgb(71, 69, 69);
+}
+/* .Card_container{
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+} */
+.img{
+        width: 90px;
+        height: 90px;
+        
+
+}
+@media screen and (max-width:768px) {
+    .card-container{
+        width: 160px;
+        height: 160px;
+    }
+    .img{
+        width: 70px;
+        height: 70px;
+        
+
+}
+.card-container a{
+    font-size: 1.5rem;
+
+}
+
+ 
+
+}
+
+@media screen and (max-width:480px) {
+    .card-container{
+        width: 100px;
+        height: 100px;
+    }
+    .img{
+        width: 40px;
+        height: 40px;
+}
+.card-container a{
+    font-size: 1rem;
+
+}
+
+}

@@ -1,0 +1,32 @@
+.Footer-container{
+    /* position: relative;
+    top: 200%; */
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Footer-content{
+    display: flex;
+    margin-top: 3px;
+}
+.Footer-content h4{
+    font-size: 1rem;
+    color: white;
+}
+.icon-3{
+    font-size: 1.2rem;
+    margin: 2px 4px;
+    color: white;    
+}
+.icon-4{
+    font-size: 1.2rem;
+    margin: 2px 4px;
+    color: white; 
+}
+.icon-5{
+    font-size: 1.2rem;
+    margin: 2px 4px;
+    color: white; 
+}
