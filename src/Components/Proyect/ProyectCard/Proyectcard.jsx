@@ -6,7 +6,7 @@ function Proyectcard({title, imageSource, Url}) {
         <div className='proyect-container'>
             <img src={imageSource} alt=""  className='proyect-img'/>
             <h4>{title}</h4>
-            <a href={Url} target='_blank'>
+            <a href={Url} target='_blank' rel="noreferrer">
                 Ir al proyecto
             </a>
         </div>
